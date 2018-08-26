@@ -22,6 +22,9 @@
             <br />
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
         </div>
+        <div>
+            <asp:Button ID="closeConnection" runat="server" OnClick="closeConnection_Click" Text="Close SQL connection" />
+        </div>
     </form>
 </body>
 </html>
