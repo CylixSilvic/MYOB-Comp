@@ -24,6 +24,7 @@
         </div>
         <div>
             <asp:Button ID="closeConnection" runat="server" OnClick="closeConnection_Click" Text="Close SQL connection" />
+            <asp:Label ID="dataLabel" runat="server"></asp:Label>
         </div>
     </form>
 </body>
